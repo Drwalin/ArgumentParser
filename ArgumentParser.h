@@ -1,4 +1,7 @@
 
+// This file is part of Drwalin Libraries project
+// Copyright (C) 2019 Marek Zalewski aka Drwalin aka DrwalinPCF
+
 #ifndef ARGUMENT_PARSER_H
 #define ARGUMENT_PARSER_H
 
