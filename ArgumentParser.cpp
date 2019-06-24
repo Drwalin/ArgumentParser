@@ -294,8 +294,6 @@ std::vector < const char* > ArgumentParser::Getcstr( const std::string & key )
 	return ret;
 }
 
-
-
 ArgumentParser::ArgumentParser( int argc, char ** argv )
 {
 	for( int i = 1; i < argc; ++i )

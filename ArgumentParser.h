@@ -10,22 +10,6 @@
 #include <vector>
 #include <typeinfo>
 
-/*
-
-main.exe -a=13 -b c=13 --d=13 e --f=asd -gh=1 --ijk=2 -b=324 --b=
-{
-	{ "", {"c=13","e"} },
-	{ "a", {"13"} },
-	{ "b", {"","324",""} },
-	{ "-d", {"13"} },
-	{ "-f", {"asd"} },
-	{ "gh", {"1"} },
-	{ "-ijk", {"2"} },
-	{ "-b", {""} }
-}
-
-*/
-
 class ArgumentParser
 {
 private:
